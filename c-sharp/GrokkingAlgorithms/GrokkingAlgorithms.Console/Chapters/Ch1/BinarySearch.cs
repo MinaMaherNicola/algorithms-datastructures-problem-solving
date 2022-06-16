@@ -11,7 +11,7 @@ namespace GrokkingAlgorithms.Console.Chapters.Ch1
         public static int Search(int[] array, int number)
         {
             int left = 0, right = array.Length - 1, mid =  UpdateMid(right, left);
-            while (right >= 0 && left < array.Length)
+            while (left <= right)
             {
                 if (array[mid] == number)
                 {
