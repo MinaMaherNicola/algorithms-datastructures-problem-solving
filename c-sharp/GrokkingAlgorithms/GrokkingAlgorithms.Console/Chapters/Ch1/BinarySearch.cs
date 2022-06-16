@@ -10,9 +10,10 @@ namespace GrokkingAlgorithms.Console.Chapters.Ch1
     {
         public static int Search(int[] array, int number)
         {
-            int left = 0, right = array.Length - 1, mid =  UpdateMid(right, left);
+            int left = 0, right = array.Length - 1, mid =  0;
             while (left <= right)
             {
+                mid = UpdateMid(right, left);
                 if (array[mid] == number)
                 {
                     return mid;
@@ -20,12 +21,10 @@ namespace GrokkingAlgorithms.Console.Chapters.Ch1
                 else if (array[mid] < number)
                 {
                     left = mid + 1;
-                    mid = UpdateMid(right, left);
                 }
                 else
                 {
                     right = mid - 1;
-                    mid = UpdateMid(right, left);
                 }
             }
             return -1;
