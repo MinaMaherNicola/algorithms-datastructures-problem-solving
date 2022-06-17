@@ -8,11 +8,11 @@ using Xunit;
 
 namespace LeetCode.Tests
 {
-    public class TwoSumsTests1
+    public class TwoSumsTests
     {
-        private readonly TwoSums1 twoSums;
+        private readonly TwoSums twoSums;
 
-        public TwoSumsTests1()
+        public TwoSumsTests()
         {
             twoSums = new();
         }
