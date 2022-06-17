@@ -24,7 +24,7 @@ namespace LeetCode.Console.Problems._2.AddTwoNumbers
             string stringL2 = ReverseString(TurnListNodeIntoString(l2));
 
             var result = System.Numerics.BigInteger.Parse(stringL1) + System.Numerics.BigInteger.Parse(stringL2);
-            string resultReversed = ReverseString(result.ToString());
+            string resultReversed = System.Numerics.BigInteger.Parse(ReverseString(result.ToString())).ToString();
             ListNode output = new(resultReversed[0] - '0');
             var pointer = output;
             for(int i = 1; i < resultReversed.Length; i++)
