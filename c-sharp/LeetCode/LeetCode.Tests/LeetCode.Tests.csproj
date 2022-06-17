@@ -24,8 +24,4 @@
     <ProjectReference Include="..\LeetCode.Console\LeetCode.Console.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Tests\3.LongestSubStringWithoutRepeatingChars\" />
-  </ItemGroup>
-
 </Project>
