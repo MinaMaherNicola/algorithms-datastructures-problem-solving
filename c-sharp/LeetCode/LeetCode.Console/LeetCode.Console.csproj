@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Problems\2.AddTwoNumbers\" />
-  </ItemGroup>
-
 </Project>

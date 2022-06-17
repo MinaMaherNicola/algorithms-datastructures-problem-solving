@@ -24,8 +24,4 @@
     <ProjectReference Include="..\LeetCode.Console\LeetCode.Console.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Tests\2.AddTwoNumbersTests\" />
-  </ItemGroup>
-
 </Project>
